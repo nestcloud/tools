@@ -1,0 +1,8 @@
+clear
+pwd
+echo [rm] -rf ~/42/
+rm -rf ~/42/
+echo [git clone] https://github.com/nesthub/42.git ~/42/
+git clone https://github.com/nesthub/42.git ~/42/
+echo [ls] ~/42/
+ls ~/42/

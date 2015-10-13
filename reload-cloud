@@ -1,0 +1,8 @@
+clear
+pwd
+echo [rm] -rf ~/cloud/
+rm -rf ~/cloud/
+echo [git clone] https://github.com/nesthub/cloud.git ~/cloud/
+git clone https://github.com/nesthub/cloud.git ~/cloud/
+echo [ls] ~/cloud/
+ls ~/cloud/

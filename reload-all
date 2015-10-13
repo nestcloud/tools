@@ -1,0 +1,14 @@
+clear
+pwd
+echo [rm] -rf ~/tools/
+rm -rf ~/tools/
+echo [rm] -rf ~/cloud/
+rm -rf ~/cloud/
+echo [rm] -rf ~/42/
+rm -rf ~/42/
+echo [git clone] https://github.com/nesthub/tools.git ~/tools/
+git clone https://github.com/nesthub/tools.git ~/tools/
+echo [git clone] https://github.com/nesthub/cloud.git ~/cloud/
+git clone https://github.com/nesthub/cloud.git ~/cloud/
+echo [git clone] https://github.com/nesthub/42.git ~/42/
+git clone https://github.com/nesthub/42.git ~/42/
